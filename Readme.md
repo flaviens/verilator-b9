@@ -1,4 +1,4 @@
-# Bug in Verilator that leads to a vrong runtime value.
+# Bug in Verilator that leads to a wrong runtime value.
 
 To reproduce, please have Verilator installed and run:
 ```
