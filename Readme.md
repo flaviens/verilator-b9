@@ -17,4 +17,8 @@ Output (trace): 0
 Output (notrace): 0
 ```
 
-Please note that no individual `-fno-` flag fixes the bug, yet enabling tracing does.
+Please note the bug is corrected by enabling traces or enabling any of these flags:
+`-fno-expand`
+`-fno-gate`
+`-fno-dfg`
+`-fno-const-bit-op-tree`.
